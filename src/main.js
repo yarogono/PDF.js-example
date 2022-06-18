@@ -35,10 +35,10 @@ function imgOpenClose(event) {
 
 function pdfToImg(urlArr) {
 
-    let pdfUrl = ["pdf/1-1.pdf",
-                      "pdf/1-2.pdf",
-                      "pdf/1-3.pdf",
-                      "pdf/1-4.pdf"];
+    let pdfUrl = ["/static/pdf/1-1.pdf",
+                  "/static/pdf/1-2.pdf",
+                  "/static/pdf/1-3.pdf",
+                  "/static/pdf/1-4.pdf"];
 
     for (let i = 0; i < pdfUrl.length; i++) {
         pdfRender(pdfUrl[i], CANVAS_ARRAY[i]);
